@@ -1,6 +1,6 @@
-# LoReTrack
-LoReTrack: Efficient and Accurate Low-Resolution Transformer Tracking
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=spgroup3d-superpoint-grouping-network-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=spgroup3d-superpoint-grouping-network-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-s3dis)](https://paperswithcode.com/sota/3d-object-detection-on-s3dis?p=spgroup3d-superpoint-grouping-network-for)
 # LoReTrack
 [LoReTrack: Efficient and Accurate Low-Resolution Transformer Tracking](https://arxiv.org/abs/2203.11991).
 

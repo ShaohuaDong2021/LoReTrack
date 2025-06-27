@@ -82,3 +82,62 @@ Put the tracking datasets in ./data. It should look like this:
             |-- TEST
    ```
 For the LaSOText and UAV123 datasets, only testing was performed.
+
+## Training
+Download [OSTrack weights](https://drive.google.com/drive/folders/1ov2nU3itkR5FJBn_wiapMGxpsL6aB5f6) and put it under `$PROJECT_ROOT$/pretrained_models`.
+
+```
+python tracking/train.py --script ostrack --config vitb_256_mae_32x4_ep300 --save_dir ./output --mode multiple --nproc_per_node 4 --use_wandb 1
+```
+
+Replace `--config` with the desired model config under `experiments/ostrack`. We use [wandb](https://github.com/wandb/client) to record detailed training logs, in case you don't want to use wandb, set `--use_wandb 0`.
+
+
+## Evaluation
+Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1Vu8MKmWDDGKwcrViSSSYLiN7IMip4dsf), as linked in the table above.
+
+Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/ostrack`
+
+Change the corresponding values of `lib/test/evaluation/local.py` to the actual benchmark saving paths
+
+Some testing examples:
+- LaSOT or other off-line evaluated benchmarks (LaSOText, UAV123) (modify `--dataset` correspondingly)
+```
+python tracking/test.py ostrack vitb_384_mae_32x4_ep300 --dataset lasot --threads 16 --num_gpus 4
+python tracking/analysis_results.py # need to modify tracker configs and names
+```
+- GOT10K-test
+```
+python tracking/test.py ostrack vitb_384_mae_32x4_got10k_ep100 --dataset got10k_test --threads 16 --num_gpus 4
+python lib/test/utils/transform_got10k.py --tracker_name ostrack --cfg_name vitb_384_mae_32x4_got10k_ep100
+```
+- TrackingNet
+```
+python tracking/test.py ostrack vitb_384_mae_32x4_ep300 --dataset trackingnet --threads 16 --num_gpus 4
+python lib/test/utils/transform_trackingnet.py --tracker_name ostrack --cfg_name vitb_384_mae_32x4_ep300
+```
+
+## Test FLOPs, and Speed
+
+```
+# Profiling vitb_256_mae_32x4_ep300
+python tracking/profile_model.py --script ostrack --config vitb_256_mae_32x4_ep300
+```
+
+
+## Acknowledgments
+* Thanks for the [OSTrack](https://github.com/botaoye/OSTrack) and [PyTracking](https://github.com/visionml/pytracking) library, which helps us to quickly implement our ideas.
+
+
+
+## Citation
+If our work is useful for your research, please consider citing:
+
+```Bibtex
+@article{dong2024loretrack,
+  title={Loretrack: efficient and accurate low-resolution transformer tracking},
+  author={Dong, Shaohua and Feng, Yunhe and Yang, Qing and Lin, Yuewei and Fan, Heng},
+  journal={arXiv preprint arXiv:2405.17660},
+  year={2024}
+}
+```

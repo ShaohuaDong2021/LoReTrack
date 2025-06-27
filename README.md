@@ -1,8 +1,5 @@
 
-# LoReTrack
-[LoReTrack: Efficient and Accurate Low-Resolution Transformer Tracking](https://arxiv.org/abs/2203.11991).
-
-## SPGroup3D
+## LoReTrack
 
 <p align="center"><img src="./images/SPGroup3D.png" alt="drawing" width="90%"/></p>
 

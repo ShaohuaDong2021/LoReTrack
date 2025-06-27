@@ -12,10 +12,9 @@ PaperLink: https://arxiv.org/pdf/2405.17660
 
 ## Results and Weights
 
-| Tracker       | LaSOT (AUC)                             | LaSOText (AUC)                          | GOT-10k (AO)                             | TrackingNet (AUC)                          | UAV123 (AUC)                             | Device | FPS  |
-|:-------------:|:----------------------------------------:|:---------------------------------------:|:----------------------------------------:|:-----------------------------------------:|:----------------------------------------:|:------:|:----:|
-| LoReTrack-256 | 70.3 <br> [weight](#) \| [raw results](#) | 51.3 <br> [weight](#) \| [raw results](#) | 73.5 <br> [weight](#) \| [raw results](#) | 82.9 <br> [weight](#) \| [raw results](#)  | 70.6 <br> [weight](#) \| [raw results](#) | GPU    | 130  |
-| LoReTrack-192 | 68.6 <br> [weight](#) \| [raw results](#) | 50.0 <br> [weight](#) \| [raw results](#) | 71.5 <br> [weight](#) \| [raw results](#) | 80.9 <br> [weight](#) \| [raw results](#)  | 69.9 <br> [weight](#) \| [raw results](#) | GPU    | 186  |
-| LoReTrack-128 | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#)  | XX.X <br> [weight](#) \| [raw results](#) | GPU    | XX   |
-| LoReTrack-96  | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#) | XX.X <br> [weight](#) \| [raw results](#)  | XX.X <br> [weight](#) \| [raw results](#) | GPU    | XX   |
-
+| Tracker       | LaSOT (AUC)                              | LaSOText (AUC)                           | GOT-10k (AO)                              | TrackingNet (AUC)                           | UAV123 (AUC)                              | Device | FPS  |
+|:-------------:|:-----------------------------------------:|:----------------------------------------:|:------------------------------------------:|:-------------------------------------------:|:------------------------------------------:|:------:|:----:|
+| LoReTrack-256 | 70.3 <br><sub>[weight](#) \| [raw results](#)</sub> | 51.3 <br><sub>[weight](#) \| [raw results](#)</sub> | 73.5 <br><sub>[weight](#) \| [raw results](#)</sub> | 82.9 <br><sub>[weight](#) \| [raw results](#)</sub> | 70.6 <br><sub>[weight](#) \| [raw results](#)</sub> | GPU    | 130  |
+| LoReTrack-192 | 68.6 <br><sub>[weight](#) \| [raw results](#)</sub> | 50.0 <br><sub>[weight](#) \| [raw results](#)</sub> | 71.5 <br><sub>[weight](#) \| [raw results](#)</sub> | 80.9 <br><sub>[weight](#) \| [raw results](#)</sub> | 69.9 <br><sub>[weight](#) \| [raw results](#)</sub> | GPU    | 186  |
+| LoReTrack-128 | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | GPU    | XX   |
+| LoReTrack-96  | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | XX.X <br><sub>[weight](#) \| [raw results](#)</sub> | GPU    | XX   |

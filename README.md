@@ -1,8 +1,17 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=spgroup3d-superpoint-grouping-network-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=spgroup3d-superpoint-grouping-network-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spgroup3d-superpoint-grouping-network-for/3d-object-detection-on-s3dis)](https://paperswithcode.com/sota/3d-object-detection-on-s3dis?p=spgroup3d-superpoint-grouping-network-for)
+
 # LoReTrack
 [LoReTrack: Efficient and Accurate Low-Resolution Transformer Tracking](https://arxiv.org/abs/2203.11991).
+
+## SPGroup3D
+
+<p align="center"><img src="./images/SPGroup3D.png" alt="drawing" width="90%"/></p>
+
+This project provides the code and results for '[LoReTrack: Efficient and Accurate Low-Resolution Transformer Tracking](https://arxiv.org/abs/2203.11991)', IROS 2025 (**Oral**)
+
+Anchors: [Shaohua Dong](https://scholar.google.com/citations?user=5iSEcFkAAAAJ&hl=en), [Yunhe Feng](https://yunhefeng.me/), [James C. Liang](https://jamesliang819.github.io/), [Qing Yang](https://scholar.google.com/citations?user=FIMxNL0AAAAJ&hl=zh-CN), [Yuewei Lin](https://ywlincq.github.io/), [Heng Fan](https://hengfan2010.github.io/)
+
+PaperLink: https://arxiv.org/abs/2312.13641
+
 
 ## Weights
 

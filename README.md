@@ -1,4 +1,4 @@
-### The code is still being prepared. Please stay tuned. Thank you!
+### The code and weights are still being prepared. Please stay tuned. Thank you!
 
 # LoReTrack
 

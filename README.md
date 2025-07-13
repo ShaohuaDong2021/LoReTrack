@@ -1,3 +1,5 @@
+# The code and weights are still being prepared and organized; please stay tuned.
+
 # LoReTrack
 
 <p align="center"><img src="./images/LoReTrack.png" alt="drawing" width="90%"/></p>

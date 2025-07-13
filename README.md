@@ -1,4 +1,4 @@
-# The code and weights are still being prepared and organized; please stay tuned.
+## The code and weights are still being prepared and organized, please stay tuned.
 
 # LoReTrack
 
